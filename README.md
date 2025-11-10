@@ -11,7 +11,7 @@ This project focuses on classifying **brain tumor MRI images** into four main ca
 - 🧩 Pituitary  
 
 The model leverages **Transfer Learning** using **DenseNet121** as the backbone.  
-Fine-tuning was performed by **unfreezing the last 10 layers** to improve feature extraction and model accuracy.
+Fine-tuning was performed by **unfreezing the last 20 layers** to improve feature extraction and model accuracy.
 
 ---
 
