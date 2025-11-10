@@ -1,5 +1,5 @@
-# 🧠 Brain Tumor Classification using CNN & Transfer Learning (MobileNetV2)
-A deep learning project that detects and classifies brain tumors from MRI scans using Convolutional Neural Networks (CNN) and Transfer Learning (MobileNetV2). Built with TensorFlow and Keras.
+# 🧠 Brain Tumor Classification using CNN & Transfer Learning (DenseNet121)
+A deep learning project that detects and classifies brain tumors from MRI scans using Convolutional Neural Networks (CNN) and Transfer Learning (DenseNet121). Built with TensorFlow and Keras.
 
 
 
@@ -10,13 +10,13 @@ This project focuses on classifying **brain tumor MRI images** into four main ca
 - 🧠 No Tumor  
 - 🧩 Pituitary  
 
-The model leverages **Transfer Learning** using **MobileNetV2** as the backbone.  
+The model leverages **Transfer Learning** using **DenseNet121** as the backbone.  
 Fine-tuning was performed by **unfreezing the last 10 layers** to improve feature extraction and model accuracy.
 
 ---
 
 ## 🧠 Model Summary
-- **Base Model:** MobileNetV2 (Pre-trained on ImageNet)  
+- **Base Model:** DenseNet121 (Pre-trained on ImageNet)  
 - **Fine-tuning:** Last 10 layers unfrozen  
 - **Optimizer:** Adam  
 - **Loss Function:** Categorical Crossentropy  
