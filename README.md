@@ -33,13 +33,14 @@ All images were resized, normalized, and augmented before training.
 
 ## ⚙️ Training Results
 
-| Dataset | Accuracy | Loss | Precision | Recall |
-|----------|-----------|------|------------|---------|
-| **Training** | 97.12% | 0.0890 | 97.50% | 96.80% |
-| **Validation** | 93.19% | 0.2163 | 93.55% | 93.11% |
-| **Testing** | 97.08% | 0.0841 | 97.35% | 96.94% |
+| Dataset        | Accuracy  | Loss    | Precision | Recall  |
+|----------------|----------|---------|-----------|---------|
+| **Training**   | 95.80%   | 0.1400  | 96.27%    | 95.41% |
+| **Validation** | 91.84%   | 0.2343  | 92.97%    | 91.20% |
+| **Testing**    | 95.28%   | 0.1453  | 95.79%    | 94.72% |
 
-✅ **Excellent generalization with 97% accuracy on the test set.**
+
+✅ **Excellent generalization with 95% accuracy on the test set.**
 
 ---
 
