@@ -1,4 +1,4 @@
-<img width="250" height="269" alt="image" src="https://github.com/user-attachments/assets/f1fc9867-c269-4a9b-9e6e-31a1656a4e9a" /># 🧠 Brain Tumor Classification using CNN & Transfer Learning (DenseNet121)
+# 🧠 Brain Tumor Classification using CNN & Transfer Learning (DenseNet121)
 A deep learning project that detects and classifies brain tumors from MRI scans using Convolutional Neural Networks (CNN) and Transfer Learning (DenseNet121). Built with TensorFlow and Keras.
 
 
@@ -53,14 +53,10 @@ We applied **Grad-CAM** to our trained model to identify **tumor regions** in th
 
 | Tumor Type   | Original MRI | Grad-CAM Heatmap | Overlay |
 |--------------|--------------|-----------------|---------|
-| Glioma       | ![Glioma Original](<img width="250" height="269" alt="image" src="https://github.com/user-attachments/assets/875921d8-d9e1-45f6-91ca-04f137c84db2" />
-) | ![Glioma Heatmap](<img width="237" height="264" alt="image" src="https://github.com/user-attachments/assets/eff4fc05-f380-4dd8-aca5-52672d03f753" />
-) | ![Glioma Overlay](<img width="231" height="263" alt="image" src="https://github.com/user-attachments/assets/691d8849-608d-4fa3-8631-861782d14c23" />
-) |
+| Glioma       | ![Glioma Original](https://github.com/user-attachments/assets/875921d8-d9e1-45f6-91ca-04f137c84db2) | ![Glioma Heatmap](https://github.com/user-attachments/assets/eff4fc05-f380-4dd8-aca5-52672d03f753) | ![Glioma Overlay](https://github.com/user-attachments/assets/691d8849-608d-4fa3-8631-861782d14c23) |
 | Meningioma   | ![Meningioma Original](path_to_meningioma_image) | ![Meningioma Heatmap](path_to_meningioma_heatmap) | ![Meningioma Overlay](path_to_meningioma_overlay) |
 | No Tumor     | ![No Tumor Original](path_to_notumor_image) | ![No Tumor Heatmap](path_to_notumor_heatmap) | ![No Tumor Overlay](path_to_notumor_overlay) |
 | Pituitary    | ![Pituitary Original](path_to_pituitary_image) | ![Pituitary Heatmap](path_to_pituitary_heatmap) | ![Pituitary Overlay](path_to_pituitary_overlay) |
-
 
 ## 🖼️ Example Outputs
 (You can add sample prediction images or confusion matrix plots here)
